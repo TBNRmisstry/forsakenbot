@@ -1,0 +1,22 @@
+{
+  "123456789012345678": {
+    "xp": 230,
+    "level": 3,
+    "wins": 5,
+    "losses": 2,
+    "roleStats": {
+      "survivor": { "wins": 3, "losses": 1, "xp": 140 },
+      "killer": { "wins": 2, "losses": 1, "xp": 90 }
+    }
+  },
+  "987654321098765432": {
+    "xp": 45,
+    "level": 1,
+    "wins": 1,
+    "losses": 3,
+    "roleStats": {
+      "survivor": { "wins": 0, "losses": 2, "xp": 10 },
+      "killer": { "wins": 1, "losses": 1, "xp": 35 }
+    }
+  }
+}
