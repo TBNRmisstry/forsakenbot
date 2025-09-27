@@ -82,33 +82,81 @@ Designed for current Forsaken in-game characters only; unreleased characters are
 
 📊 Example Outputs
 /counters Noob
-📊 Counters for Noob
-
-Strong Counters: Slasher, C00lkidd, John Doe
-
-Recommended Settings:
-- FOV: 90
-- Audio: Enable footsteps & ambient sounds
-
-Tips:
-- Noob is a baseline survivor—use teamwork and map knowledge to outplay killers.
-- Don’t stick close to walls; leave yourself room to sprint and dodge.
-- Predict killer movement and lead escapes to cover early.
-
-Sources:
-<https://forsaken.fandom.com/wiki/Survivors>
-
-
-/tips looping
-🌀 Looping & Juking Tips:
-
-- Use unpredictable movement paths to avoid killer tracking.
-- Break line of sight frequently to force killer reposition.
-- Pair with teammates to bait killers into long loops.
-- Observe killer patterns to anticipate skill usage.
+╔══════════════════════════╗
+║  📊 Counters for Noob    ║
+╠══════════════════════════╣
+║ Strong Counters:         ║
+║ - Slasher                ║
+║ - C00lkidd               ║
+║ - John Doe               ║
+╠══════════════════════════╣
+║ Recommended Settings:    ║
+║ - FOV: 90                ║
+║ - Audio: Enable footsteps║
+║   & ambient sounds       ║
+╠══════════════════════════╣
+║ Tips:                    ║
+║ - Use teamwork & map     ║
+║   knowledge to outplay   ║
+║   killers.               ║
+║ - Avoid sticking to walls║
+║ - Predict killer movement║
+╠══════════════════════════╣
+║ Sources:                 ║
+║ <https://forsaken.fandom.║
+║ com/wiki/Survivors>      ║
+╚══════════════════════════╝
 
 
 /wiki
 
 📖 Official Forsaken Wiki: 
 https://forsaken.fandom.com/wiki/Forsaken_Wiki
+
+
+📸 Example: /stamina in Discord
+
+╔════════════════════════════╗
+║  🏃 Stamina Management Tips ║
+╠════════════════════════════╣
+║ - Avoid sprinting constantly║
+║   to prevent early exhaustion║
+║ - Use crouching or walking ║
+║   to conserve stamina       ║
+║ - Loop efficiently: sprint ║
+║   only when necessary       ║
+║ - Predict killer movements  ║
+║   to time your stamina usage║
+║ - Take short breaks behind  ║
+║   cover to regenerate       ║
+╠════════════════════════════╣
+║ Additional Tips:            ║
+║ - Pair stamina management   ║
+║   with juking for max escape║
+║ - Use environmental obstacles║
+║   to pause and regain stamina║
+╚════════════════════════════╝
+
+
+📸 Example: /looping in Discord
+
+╔════════════════════════════╗
+║  🌀 Looping & Juking Tips  ║
+╠════════════════════════════╣
+║ - Use unpredictable movement║
+║   paths to avoid killer      ║
+║   tracking                  ║
+║ - Break line of sight       ║
+║   frequently to force       ║
+║   killer to reposition      ║
+║ - Pair with teammates to    ║
+║   bait killers into long    ║
+║   loops                     ║
+║ - Observe killer patterns   ║
+║   to anticipate skill usage ║
+║ - Use map geometry to       ║
+║   maximize distance during  ║
+║   loops                     ║
+╚════════════════════════════╝
+
+
