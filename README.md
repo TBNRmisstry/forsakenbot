@@ -1,7 +1,7 @@
 # forsakenbot
 a bot that gives tips to be better at forsaken
 
-
+NOTE:  CURRENTLY NOT FINISHED I UPDATED THIS WHEN IT FINISHED
 
 command list:
 /survivor-tip → Gives random tips for survivors (how to hide, teamwork, solving puzzles, juking the killer).
