@@ -1,70 +1,120 @@
 {
   "Slasher": {
-    "counters": ["Two Time", "Azure", "Taph"],
+    "counters": ["Two Time", "Taph", "Azure", "Guest 1337"],
     "settings": {
       "recommendedFOV": "90-100",
       "sensitivity": "1.0-1.5",
-      "disableMotionBlur": "true",
-      "graphics": "balanced (to keep audio cues clear)"
+      "turnOffMotionBlur": "true",
+      "graphics": "balanced (so audio cues stay clear)"
     },
     "tips": [
-      "Avoid predictable loops; cut through open areas and use elevation to break line-of-sight.",
-      "Use audio to detect Slasher's approach — back away to cover rather than sprinting in open sight."
+      "Avoid long predictable loops; Slasher can cut corners easily.",
+      "Use elevation and geometry to force longer approach paths.",
+      "When Slasher uses long-reach attacks, break line of sight quickly.",
+      "Work in pairs to bait Slasher toward weaker survivors."
     ],
     "sources": ["https://forsaken2024.fandom.com/wiki/Slasher"]
   },
-
-  "Two Time": {
-    "counters": ["Slasher", "Doombringer", "Guest 1458"],
-    "settings": {
-      "recommendedFOV": "85-95",
-      "hudTips": "Enable sound indicators and footsteps volume high"
-    },
-    "tips": [
-      "Two Time often uses short bursts — bait these with long loops and force him to commit to paths.",
-      "Coordinate with teammates to finish objectives while the killer chases one player."
-    ],
-    "sources": ["https://forsaken2024.fandom.com/wiki/Two_Time"]
-  },
-
-  "Azure": {
-    "counters": ["Taph", "Slasher", "ChanceRow"],
+  "C00lkidd": {
+    "counters": ["Slasher", "1x1x1x1", "Noli", "Taph"],
     "settings": {
       "recommendedFOV": "90",
-      "turnOffBloodEffects": "optional to reduce visual noise"
+      "turnOffBloodEffects": "true",
+      "sensitivity": "1.2"
     },
     "tips": [
-      "Azure excels in direct engagement; avoid open fights—kite to geometry-heavy zones.",
-      "Use staggered repairs to not bunch up in one spot."
+      "C00lkidd’s minions can pressure survivors—stick with teammates to counter that.",
+      "Avoid clustering together—minions deal AoE pressure.",
+      "Break line of sight before entering spaces with limited escape paths."
     ],
-    "sources": ["https://forsaken2024.fandom.com/wiki/Azure"]
+    "sources": ["How To Counter EVERY Killer (Forsaken) — YouTube"]
   },
-
-  "Guest 1458": {
+  "John Doe": {
     "counters": ["Slasher", "Two Time", "Azure"],
     "settings": {
       "sensitivity": "1.0",
-      "audio": "enable environment sounds to hear movement"
+      "recommendedFOV": "95"
     },
     "tips": [
-      "Guest 1458 can be bursty; keep movement unpredictable and use teammates to trade rescues."
+      "John Doe’s spikes can trap survivors—watch your movement choices.",
+      "Use unpredictable paths—don’t cross spike zones repeatedly.",
+      "Lure him into areas with multiple exit options rather than corridors."
     ],
-    "sources": ["https://forsaken2024.fandom.com/wiki/Guest_1458"]
+    "sources": ["Ranking every killer in Forsaken — community forum"]
   },
-
-  "DefaultSurvivor": {
-    "counters": ["All killers — depends on matchup"],
+  "1x1x1x1": {
+    "counters": ["Slasher", "C00lkidd", "Noli"],
+    "settings": {
+      "recommendedFOV": "100",
+      "turnOffMotionBlur": "true"
+    },
+    "tips": [
+      "1x1x1x1 has clone or entangle tools—don’t cluster, force him to use clones away.",
+      "Use open map areas so clones don’t corner you.",
+      "Break line of sight often to force him to reposition clones."
+    ],
+    "sources": ["Ranking every killer in Forsaken — community forum"]
+  },
+  "Noli": {
+    "counters": ["Slasher", "C00lkidd", "1x1x1x1"],
+    "settings": {
+      "recommendedFOV": "90-100"
+    },
+    "tips": [
+      "Noli's playstyle often punishes overcommitment—don’t chase high risk.",
+      "Rotate between objectives rather than lingering in one area.",
+      "Use cover and mid-map loops to avoid lock-ins."
+    ],
+    "sources": []
+  },
+  "Noob": {
+    "counters": ["Slasher", "C00lkidd", "John Doe"],
     "settings": {
       "recommendedFOV": "90",
-      "audio": "loud footsteps/sound cues"
+      "audio": "enable footsteps & ambient sounds"
     },
     "tips": [
-      "Learn map-specific looping spots (Horror Hotel, Underground War, Glass Houses are strong for loops).",
-      "Practice stamina bursts and short cover peeks to force longer killer paths."
+      "Noob is a baseline survivor—use teamwork and map knowledge to outplay killers.",
+      "Don’t stick close to walls; leave yourself room to sprint and dodge.",
+      "Predict killer movement and lead escapes to cover early."
     ],
-    "sources": [
-      "https://forsaken2024.fandom.com/wiki/Survivors",
-      "https://www.youtube.com/watch?v=9-ltjIyrWQs"
-    ]
+    "sources": ["Survivors | Forsaken Wiki"]
+  },
+  "007n7": {
+    "counters": ["Slasher", "C00lkidd", "1x1x1x1"],
+    "settings": {
+      "recommendedFOV": "90"
+    },
+    "tips": [
+      "As 007n7 is often support, stay near teammates but vary your path.",
+      "Don’t always rescue openly—use indirect paths.",
+      "Use distractions if possible to draw killer away from objectives."
+    ],
+    "sources": ["Forsaken Wiki — Survivors"]
+  },
+  "Taph": {
+    "counters": ["Slasher", "John Doe", "C00lkidd"],
+    "settings": {
+      "recommendedFOV": "90",
+      "turnOffMotionBlur": "true"
+    },
+    "tips": [
+      "Taph’s traps can be avoided by scanning environment—don’t rush blindly.",
+      "Looping near traps forces killers to waste time disarming.",
+      "Rescue paths should avoid known trap locations."
+    ],
+    "sources": ["YouTube – BEST Ways to Counter Survivors"]
+  },
+  "Azure": {
+    "counters": ["Slasher", "C00lkidd", "1x1x1x1"],
+    "settings": {
+      "recommendedFOV": "90"
+    },
+    "tips": [
+      "Azure's abilities can impose status effects—avoid clustering or repeated attacks.",
+      "Use interrupted movement to bait Azure’s skill usage.",
+      "Engage on your terms—force Azure to use ability far from objectives."
+    ],
+    "sources": ["Forsaken Wiki — Status Effects"]
   }
 }
