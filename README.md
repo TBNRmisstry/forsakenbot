@@ -67,3 +67,48 @@ Run the bot:
 
 node index.js
 
+
+
+
+🔗 Additional Notes
+
+The /counters command is data-driven via countersData.json. Update this file to add new characters, tips, or settings.
+
+Commands are modular, each in a separate file in the commands/ folder.
+
+Designed for current Forsaken in-game characters only; unreleased characters are excluded.
+
+
+
+📊 Example Outputs
+/counters Noob
+📊 Counters for Noob
+
+Strong Counters: Slasher, C00lkidd, John Doe
+
+Recommended Settings:
+- FOV: 90
+- Audio: Enable footsteps & ambient sounds
+
+Tips:
+- Noob is a baseline survivor—use teamwork and map knowledge to outplay killers.
+- Don’t stick close to walls; leave yourself room to sprint and dodge.
+- Predict killer movement and lead escapes to cover early.
+
+Sources:
+<https://forsaken.fandom.com/wiki/Survivors>
+
+
+/tips looping
+🌀 Looping & Juking Tips:
+
+- Use unpredictable movement paths to avoid killer tracking.
+- Break line of sight frequently to force killer reposition.
+- Pair with teammates to bait killers into long loops.
+- Observe killer patterns to anticipate skill usage.
+
+
+/wiki
+
+📖 Official Forsaken Wiki: 
+https://forsaken.fandom.com/wiki/Forsaken_Wiki
