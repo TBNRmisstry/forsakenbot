@@ -1,0 +1,70 @@
+{
+  "Slasher": {
+    "counters": ["Two Time", "Azure", "Taph"],
+    "settings": {
+      "recommendedFOV": "90-100",
+      "sensitivity": "1.0-1.5",
+      "disableMotionBlur": "true",
+      "graphics": "balanced (to keep audio cues clear)"
+    },
+    "tips": [
+      "Avoid predictable loops; cut through open areas and use elevation to break line-of-sight.",
+      "Use audio to detect Slasher's approach — back away to cover rather than sprinting in open sight."
+    ],
+    "sources": ["https://forsaken2024.fandom.com/wiki/Slasher"]
+  },
+
+  "Two Time": {
+    "counters": ["Slasher", "Doombringer", "Guest 1458"],
+    "settings": {
+      "recommendedFOV": "85-95",
+      "hudTips": "Enable sound indicators and footsteps volume high"
+    },
+    "tips": [
+      "Two Time often uses short bursts — bait these with long loops and force him to commit to paths.",
+      "Coordinate with teammates to finish objectives while the killer chases one player."
+    ],
+    "sources": ["https://forsaken2024.fandom.com/wiki/Two_Time"]
+  },
+
+  "Azure": {
+    "counters": ["Taph", "Slasher", "ChanceRow"],
+    "settings": {
+      "recommendedFOV": "90",
+      "turnOffBloodEffects": "optional to reduce visual noise"
+    },
+    "tips": [
+      "Azure excels in direct engagement; avoid open fights—kite to geometry-heavy zones.",
+      "Use staggered repairs to not bunch up in one spot."
+    ],
+    "sources": ["https://forsaken2024.fandom.com/wiki/Azure"]
+  },
+
+  "Guest 1458": {
+    "counters": ["Slasher", "Two Time", "Azure"],
+    "settings": {
+      "sensitivity": "1.0",
+      "audio": "enable environment sounds to hear movement"
+    },
+    "tips": [
+      "Guest 1458 can be bursty; keep movement unpredictable and use teammates to trade rescues."
+    ],
+    "sources": ["https://forsaken2024.fandom.com/wiki/Guest_1458"]
+  },
+
+  "DefaultSurvivor": {
+    "counters": ["All killers — depends on matchup"],
+    "settings": {
+      "recommendedFOV": "90",
+      "audio": "loud footsteps/sound cues"
+    },
+    "tips": [
+      "Learn map-specific looping spots (Horror Hotel, Underground War, Glass Houses are strong for loops).",
+      "Practice stamina bursts and short cover peeks to force longer killer paths."
+    ],
+    "sources": [
+      "https://forsaken2024.fandom.com/wiki/Survivors",
+      "https://www.youtube.com/watch?v=9-ltjIyrWQs"
+    ]
+  }
+}
