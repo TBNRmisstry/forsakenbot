@@ -1,19 +1,18 @@
-// countersSystem.js
-const fs = require('fs');
-const path = require('path');
-const file = path.resolve(__dirname, 'countersData.json');
-let data = {};
-function loadData(){
-  if (!fs.existsSync(file)) fs.writeFileSync(file, JSON.stringify({}, null, 2));
-  data = JSON.parse(fs.readFileSync(file, 'utf8'));
+const data = counters.getCounters(char);
+if (!data) {
+  reply = `No counter data found for **${char}**.`;
+} else {
+  reply = `📊 **Counters for ${char}**\n\n`;
+  reply += `**Strong Counters:** ${data.counters.join(', ')}\n\n`;
+  reply += `**Recommended Settings / Advice:**\n`;
+  for (const [k, v] of Object.entries(data.settings)) {
+    reply += `- ${k}: ${v}\n`;
+  }
+  if (data.tips) {
+    reply += `\n**Tips:**\n`;
+    data.tips.forEach(t => reply += `- ${t}\n`);
+  }
+  if (data.sources) {
+    reply += `\nSources:\n${data.sources.map(s => `<${s}>`).join('\n')}\n`;
+  }
 }
-loadData();
-
-function getCounters(characterName){
-  loadData();
-  if(!characterName) return null;
-  const key = Object.keys(data).find(k => k.toLowerCase() === characterName.trim().toLowerCase());
-  return key ? data[key] : null;
-}
-
-module.exports = { getCounters };
