@@ -1,15 +1,22 @@
-📊 Forsaken Leaderboard
-1. @Joshua — Level 5 (230 XP, 10W/3L)
-2. @Player2 — Level 4 (90 XP, 6W/4L)
-3. @Player3 — Level 2 (40 XP, 2W/1L)
-
 {
   "123456789012345678": {
-    "xp": 45,
-    "level": 1
+    "xp": 230,
+    "level": 3,
+    "wins": 5,
+    "losses": 2,
+    "roleStats": {
+      "survivor": { "wins": 3, "losses": 1, "xp": 140 },
+      "killer": { "wins": 2, "losses": 1, "xp": 90 }
+    }
   },
   "987654321098765432": {
-    "xp": 120,
-    "level": 2
+    "xp": 45,
+    "level": 1,
+    "wins": 1,
+    "losses": 3,
+    "roleStats": {
+      "survivor": { "wins": 0, "losses": 2, "xp": 10 },
+      "killer": { "wins": 1, "losses": 1, "xp": 35 }
+    }
   }
 }
